@@ -23,7 +23,7 @@ getid();
   <div>
     <router-view/>
   </div>
-<HelloWorld msg="Vite + Vue" />
+<!-- <HelloWorld msg="Vite + Vue" /> -->
 </template>
 
 <style scoped lang="scss">

@@ -3,7 +3,7 @@ import { defineStore } from 'pinia'
 export const mainStore = defineStore('main',{
     state:()=>{
         return{
-            msg:123
+            msg:'肥仔老汉'
         }
     },
     getters:{},

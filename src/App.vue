@@ -1,16 +1,16 @@
 <script setup lang="ts">
 // This starter template is using Vue 3 <script setup> SFCs
 // Check out https://vuejs.org/api/sfc-script-setup.html#script-setup
-import { getbackstageList } from './api/axios'
+// import { getbackstageList } from './api/axios'
 import HelloWorld from './components/HelloWorld.vue'
 
-const getid =async()=>{
-  let id = await getbackstageList();
+// const getid =async()=>{
+//   let id = await getbackstageList();
 
-  console.log(id);
+//   console.log(id);
   
-}
-getid();
+// }
+// getid();
 </script>
 
 <template>
@@ -23,7 +23,7 @@ getid();
   <div>
     <router-view/>
   </div>
-<!-- <HelloWorld msg="Vite + Vue" /> -->
+<HelloWorld msg="Vite + Vue" />
 </template>
 
 <style scoped lang="scss">

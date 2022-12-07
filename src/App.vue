@@ -23,7 +23,7 @@ import HelloWorld from './components/HelloWorld.vue'
   <div>
     <router-view/>
   </div>
-<HelloWorld msg="嘿嘿" />
+<HelloWorld msg="嘿嘿,肥仔老汉" />
 </template>
 
 <style scoped lang="scss">

@@ -21,7 +21,7 @@ const getid=()=>{
 }
 getid();
 const updateid=()=>{
-  // console.log(store.msg);
+  console.log(store);
   // store.msg=0
   console.log(store.msg);
   // store.msg++;

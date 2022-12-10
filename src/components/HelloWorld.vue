@@ -2,7 +2,7 @@
 import { Ref, ref } from 'vue'
 import { mainStore,mainStores } from '../store';
 const store = mainStore();
-const stores = mainStores();
+// const stores = mainStores();
 const count = ref(10)
 let str2=ref('mt')
 let str = ref('2324') as Ref<string>
@@ -23,8 +23,8 @@ getid();
 const updateid=()=>{
   // console.log(store.msg);
   // store.msg=0
-  // console.log(store.msg);
-  store.msg++;
+  console.log(store.msg);
+  // store.msg++;
   // console.log(stores.msg);
   
 }
@@ -32,7 +32,8 @@ const updateid=()=>{
 
 <template>
   <h1>{{msg }}</h1>
-  <h1>{{store}}{{stores}}</h1>
+  <!-- <h1>{{store}}{{stores}}</h1> -->
+  <h1>{{store}}</h1>
   <!-- <input type="text" v-model="store.msg"> -->
 <h1>{{store.msg}}</h1>
   <div class="card">

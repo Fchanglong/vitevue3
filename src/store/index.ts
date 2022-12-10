@@ -1,11 +1,9 @@
 import { defineStore } from 'pinia'
 
 export const mainStore = defineStore('main',{
-    state:()=>{
-        return{
+    state:()=>({
             msg:'123'
-        }
-    },
+    }),
     getters:{},
     actions:{}
 })

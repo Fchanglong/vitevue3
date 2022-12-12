@@ -4,7 +4,7 @@ import { mainStore,mainStores } from '../store';
 const store = mainStore();
 // const stores = mainStores();
 const count = ref(10)
-let str2=ref('mt')
+let str2=ref(123) as Ref<number>
 let str = ref('2324') as Ref<string>
   //第一种
 // defineProps<{ msg: string }>()
@@ -33,7 +33,7 @@ const updateid=()=>{
 <template>
   <h1>{{msg }}</h1>
   <!-- <h1>{{store}}{{stores}}</h1> -->
-  <!-- <h1>{{store}}</h1> -->
+  <h1>{{store}}</h1>
   <!-- <input type="text" v-model="store.msg"> -->
 <h1>{{store.msg}}</h1>
   <div class="card">

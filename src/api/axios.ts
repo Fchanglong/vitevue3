@@ -31,7 +31,7 @@ import  request  from './api'
 // }
 // 获取后台数据
 export const getbackstageList=()=>{
-    let url=`/api/v2/ft_theme/ace`
+    let url=`/api/article`
     return request.get(url);
 
 }

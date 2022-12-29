@@ -1,1 +1,0 @@
-import{_ as e}from"./index.c77fc4b8.js";const r={};function t(s,o){return" 222222222 "}const _=e(r,[["render",t],["__file","C:/Users/servi/Documents/GitHub/vitevue3/src/views/routertow.vue"]]);export{_ as default};

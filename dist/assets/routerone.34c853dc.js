@@ -1,1 +1,0 @@
-import{_ as e}from"./index.c77fc4b8.js";const r={};function t(s,o){return" 11111111 "}const n=e(r,[["render",t],["__file","C:/Users/servi/Documents/GitHub/vitevue3/src/views/routerone.vue"]]);export{n as default};

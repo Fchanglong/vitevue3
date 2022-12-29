@@ -33,7 +33,7 @@ const updateid=()=>{
 <template>
   <h1>{{msg }}</h1>
   <!-- <h1>{{store}}{{stores}}</h1> -->
-  <h1>{{store}}</h1>
+  <!-- <h1>{{store}}</h1> -->
   <!-- <input type="text" v-model="store.msg"> -->
 <h1>{{store.msg}}</h1>
   <div class="card">
